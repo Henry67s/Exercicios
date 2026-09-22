@@ -1,0 +1,16 @@
+namespace Exercicio10
+{
+    public class Aluno
+    {
+        public string Nome { get; set; }
+        public int Idade { get; set; }
+        public string Curso { get; set; }
+        public string Email { get; set; }
+        public double Nota { get; set; }
+
+        public void MostrarAluno()
+        {
+            Console.WriteLine($"Nome: {Nome}");
+            Console.WriteLine($"Idade: {Idade}");
+            Console.WriteLine($"Curso: {Curso}");
+            Console.WriteLine($"E-mail: {
